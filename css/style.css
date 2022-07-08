@@ -97,6 +97,7 @@ body{
     font-size: 35px;
 }
 
+ /* about category */
 .category{
     text-align: center;
 }
@@ -106,4 +107,18 @@ body{
 }
 .category p{
     font-size: 35px;
+}
+
+/* about most popular */
+
+.about-images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 90px;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.image{
+    width: 440px;
+    
 }
