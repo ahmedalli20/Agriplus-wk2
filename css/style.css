@@ -78,6 +78,7 @@ body{
     grid-template-columns: repeat(2, 1fr);
     width: 95%;
     margin: auto;
+    margin-bottom: 50px;
 }
 
 .its-image{
@@ -93,5 +94,16 @@ body{
     font-size: 60px;
 }
 .about-exists p{
+    font-size: 35px;
+}
+
+.category{
+    text-align: center;
+}
+
+.category h2{
+    font-size: 50px;
+}
+.category p{
     font-size: 35px;
 }
