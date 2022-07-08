@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+}
+
+/* nav bar */
+.menu {
+    display: flex;
+    margin: 40px auto 20px auto;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    
+}
+
+#logo {
+    font-size: 25px;
+    font-weight: bold;
+   
+}
+
+.navlinks {
+    display: flex;
+    gap: 100px;
+    font-size: 23px;
+}
+
+.navlinks p:hover {
+    color: #ED661F;
+    transition: all 0.4s ease 0s;
+}
+
+.login{
+    font-size: 23px;
+}
+
+#button {
+    background-color:#ED661F;
+    color: white;
+    padding: 12px 25px 12px 25px;
+    border-radius: 7px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
