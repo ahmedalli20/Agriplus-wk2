@@ -10,7 +10,7 @@ body{
     background-color: black;
     color: white;
     padding: 30px;
-    
+
 }
 
 #logo {
@@ -38,8 +38,30 @@ body{
     background-color:#ED661F;
     color: white;
     padding: 12px 25px 12px 25px;
-    border-radius: 7px;
     border: none;
     font-size: 20px;
     font-weight: bold;
 }
+
+ /* about the agriplus */
+
+.about-agriplus{
+    width: 100%;
+    margin: 40px;
+    /* display: grid;  */
+     /* background-image: url("/images/image 1.png");  */
+    /* grid-template-columns: repeat(2, 1fr); */
+   
+}
+/* 
+ .about-img{
+    width: 100%;
+}  */
+.about-img img{
+    width: 50%;
+    float: right;
+    margin: 40px;
+}
+.about-text h1{
+    font-size: 60px;
+} 
