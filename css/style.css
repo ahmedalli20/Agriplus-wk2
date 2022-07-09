@@ -149,7 +149,21 @@ padding-bottom: 0px;
 }
 .customers{
     background-color: white;
-    box-shadow:25px 10px 5px grey;
+    box-shadow:2px 10px 5px grey;
     width: 380px;
     padding: 20px;
+}
+.pics{
+    display: flex;
+    
+} 
+
+.pics p{
+    font-size: 30px;
+    margin-left: 37px;
+}
+.stars{
+    display: flex;
+    font-size: 60px;
+    color: #ED661F;
 }
