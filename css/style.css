@@ -1,4 +1,4 @@
-body{
+body {
     padding: 0;
     margin: 0;
 }
@@ -10,14 +10,13 @@ body{
     justify-content: space-between;
     background-color: black;
     color: white;
-    padding: 30px;
+    padding: 28px;
 
 }
 
 #logo {
-    font-size: 25px;
-    font-weight: bold;
-   
+    font-size: 34px;
+    font-weight: bolder;
 }
 
 .navlinks {
@@ -31,12 +30,12 @@ body{
     transition: all 0.4s ease 0s;
 }
 
-.login{
+.login {
     font-size: 23px;
 }
 
 #button {
-    background-color:#ED661F;
+    background-color: #ED661F;
     color: white;
     padding: 20px 25px 20px 25px;
     border: none;
@@ -44,64 +43,67 @@ body{
     font-weight: bold;
 }
 
- /* about the agriplus */
+/* about the agriplus */
 
-.about-agriplus{
-    background: url("/images/image 1.png"); 
+.about-agriplus {
+    background: url("/images/image 1.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
-    height: 121vh; 
-    display:flex;
-    
+    background-position: center;
+    height: 121vh;
+    display: flex;
 }
 
-.about-img img{
+.about-img img {
     width: 100%;
     float: right;
     padding-top: 250px;
     padding-right: 60px;
-    
+
 }
-.about-text{
+
+.about-text {
     width: 100%;
     padding-top: 250px;
     padding-left: 100px;
-    
-}
-.about-text h1{
-    font-size: 76px;
-} 
 
-.about-text p{
+}
+
+.about-text h1 {
+    font-size: 76px;
+}
+
+.about-text p {
     line-height: 30px;
     font-size: 32px;
 }
-#btn{
-    background-color:#ED661F;
+
+#btn {
+    background-color: #ED661F;
     color: white;
     padding: 30px 30px 30px 30px;
     border: none;
     font-size: 30px;
     font-weight: bolder;
-}  
+}
 
 /* about vendors */
-.vendors{
-    display: inline-flex;
-    gap: 80px;
-   font-size: 25px;
-   font-weight: bold;
-   justify-content: center;
-  background-color: white;
-  box-shadow: 3px 3px 2px grey;
-  padding: 40px 20px 40px 20px;
+.vendors ul {
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 3px 3px 2px grey;
+    padding: 40px 20px 40px 20px;
+    height: 50px;
 }
-   
+
 
 
 /* About why we exist */
-.exists{
+.exists {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 95%;
@@ -109,50 +111,58 @@ body{
     margin-bottom: 50px;
 }
 
-.its-image{
+.its-image {
     width: 100%;
 }
-.its-image img{
+
+.its-image img {
     width: 90%;
 }
-.about-exists{
+
+.about-exists {
     width: 100%;
 }
-.about-exists h2{
+
+.about-exists h2 {
     font-size: 60px;
 }
-.about-exists p{
+
+.about-exists p {
     font-size: 35px;
 }
 
- /* about category */
-.category{
+/* about category */
+.category {
     text-align: center;
 }
 
-.category h2{
+.category h2 {
     font-size: 50px;
 }
-.category p{
+
+.category p {
     font-size: 35px;
 }
 
 /* about most popular */
 
-.about-images{
+.about-images {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(4, 1fr);
     gap: 50px;
     width: 100%;
 
 }
-.image{
-    width:100%;
-    
+
+.image {
+    width: 100%;
+
 }
+
 .more{
-    text-align: right;
-    font-size: 25px;
+    text-align: end;
+    padding-right: 50px;
+    font-size: 22px;
 }
 
 
@@ -161,49 +171,107 @@ body{
     display: flex;
     justify-content: space-between;
 } */
-.about-customers h1{
-font-size: 40px;
-padding-bottom: 0px;
+.about-customers h1 {
+    font-size: 40px;
+    padding-bottom: 0px;
 
 }
 
-.feedback{
+.feedback {
     display: flex;
     justify-content: space-around;
     margin-bottom: 200px;
 }
 
-.customers p{
-   font-size: 50px;
+.customers p {
+    font-size: 50px;
 }
-.customers{
+
+.customers {
     background-color: white;
-    box-shadow:2px 10px 5px grey;
+    box-shadow: 2px 10px 5px grey;
     width: 380px;
     padding: 20px;
 }
+
 .pics{
     display: flex;
-    
-} 
+}
 
-.pics p{
+.pics p {
     font-size: 30px;
     margin-left: 37px;
 }
-.stars{
+
+.stars {
     display: flex;
     font-size: 60px;
     color: #ED661F;
-}   
+}
+ 
 
 
 /* About emails */
 
-.about-email{
+.about-email {
     text-align: center;
     background-color: black;
-    padding:120px 200px;
+    padding: 120px 200px;
     color: white;
 
+}
+.about-email h1{
+    font-size: 50px;
+}
+.about-email p{
+    font-size: 25px;
+}
+
+input {
+    padding: 18px 25px 18px 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* about footer */
+
+.about-us {
+    display: flex;
+    gap: 200px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 80px 40px 80px 50px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.images {
+    display: flex;
+    gap: 10px;
+
+}
+
+.images img {
+    width: 240px;
+}
+
+.icons{
+    font-size: 30px;
+}
+.company{
+    line-height: 50px;
+    font-size:24px ;
+}
+.products{
+    line-height: 50px;
+    font-size:24px ;
+}
+.others{
+    line-height: 50px;
+    font-size:24px ;
 }
