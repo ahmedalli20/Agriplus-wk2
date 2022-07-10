@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: 'poppins';
 }
 
 /* nav bar */
@@ -70,7 +71,7 @@ body {
 }
 
 .about-text h1 {
-    font-size: 76px;
+    font-size: 70px;
 }
 
 .about-text p {
@@ -128,7 +129,7 @@ body {
 }
 
 .about-exists p {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 /* about category */
@@ -145,21 +146,49 @@ body {
 }
 
 /* about most popular */
+span{
+    text-decoration: underline;
+    text-decoration-color: #ED661F;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 11px;
+}
+  #two{
+    text-decoration: underline;
+    text-decoration-color: #ED661F;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 21px;
+  }
+
+
 
 .about-images {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 50px;
-    width: 100%;
+    display: flex;
+    justify-content: space-around;
 
 }
 
-.image {
-    width: 100%;
-
+.image img {
+    width: 350px;
 }
 
-.more{
+.popular h2{
+    margin-left: 53px;
+    font-weight:bold;
+    font-size: 38px;
+}
+.new-item h2{
+    margin-left: 53px;
+    font-weight:bold;
+    font-size: 38px;
+}
+
+hr {
+    height: 40px;
+    background: #ccc;
+    margin: 20px;
+}
+
+.more {
     text-align: end;
     padding-right: 50px;
     font-size: 22px;
@@ -167,13 +196,15 @@ body {
 
 
 /* about customer feedback */
-/* .about-customers{
+.about-customers {
     display: flex;
     justify-content: space-between;
-} */
+}
+
 .about-customers h1 {
     font-size: 40px;
-    padding-bottom: 0px;
+    margin-left: 55px;
+    font-weight: bold;
 
 }
 
@@ -184,7 +215,8 @@ body {
 }
 
 .customers p {
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .customers {
@@ -194,7 +226,7 @@ body {
     padding: 20px;
 }
 
-.pics{
+.pics {
     display: flex;
 }
 
@@ -208,7 +240,7 @@ body {
     font-size: 60px;
     color: #ED661F;
 }
- 
+
 
 
 /* About emails */
@@ -220,10 +252,12 @@ body {
     color: white;
 
 }
-.about-email h1{
+
+.about-email h1 {
     font-size: 50px;
 }
-.about-email p{
+
+.about-email p {
     font-size: 25px;
 }
 
@@ -260,18 +294,25 @@ ul {
     width: 240px;
 }
 
-.icons{
+.icons {
     font-size: 30px;
 }
-.company{
+
+.company {
     line-height: 50px;
-    font-size:24px ;
+    font-size: 24px;
 }
-.products{
+
+.products {
     line-height: 50px;
-    font-size:24px ;
+    font-size: 24px;
 }
-.others{
+
+.others {
     line-height: 50px;
-    font-size:24px ;
+    font-size: 24px;
+}
+
+.license {
+    text-align: center;
 }
