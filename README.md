@@ -1,53 +1,55 @@
-#AgriPlus website
-#Auther
-##By Ahmed Ali 
+AgriPlus website
+Auther
+By Ahmed Ali 
 ---
-##screenshots of the website
+screenshots of the website
 
 
 
-#Table of Content
+Table of Content
 ---
-[Description](#Description)
-[Features](#Features)
-[Requirements](#Requirements)
-[Installation Process](#Installation Process)
-[Live Link](#Live Link)
-[Technology Used](#Technology Used)
-[Licence](#Licence)
+[Description]
+[Features]
+[Requirements]
+[Installation Process]
+[Live Link]
+[Technology Used]
+[Licence]
 
-#Description
+Description
 ---
 This project is a landing page of an Agricultural website that is used by farmers to sell their product .The farmers or producers poat there produce where by its like an online e-commerce and its agreat platform for farmers, producers and harvesters.
-#features
+
+
+Features
 ---
 As a user of the web app,you will be able to :
  1.View the services and the produce offered by the platform
  2.View the available featured properties.
 
-#Requirements
+Requirements
 ---
 Access to a computer, 1.smartphone or other devices
 2.Access to internet.
 
-#installation process
+Installation process
 ---
 Clone to this repo : git clone https://github.com/ahmedalli20/Agriplus-wk2.git
 Unzip the downloaded files in a folder of choice.
 Open the index file from the zipped file with any browser.
 
 
-#Live Link
+Live Link
 ---
 
 
 
-#Technology Used 
+Technology Used 
 ---
 HTML - which was used to develop the structure of the pages.
 CSS - which was used to style the User Interface.
 
-#Licence
+Licence
 ---
 
 MIT License
