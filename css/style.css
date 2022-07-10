@@ -5,6 +5,7 @@ body {
 }
 
 /* nav bar */
+
 .menu {
     display: flex;
     margin: 40px auto 20px auto;
@@ -22,14 +23,14 @@ body {
 
 .navlinks {
     display: flex;
-    gap: 100px;
+    gap: 58px;
     font-size: 23px;
 }
-
 .navlinks p:hover {
     color: #ED661F;
     transition: all 0.4s ease 0s;
 }
+
 
 .login {
     font-size: 23px;
@@ -38,11 +39,39 @@ body {
 #button {
     background-color: #ED661F;
     color: white;
-    padding: 20px 25px 20px 25px;
+    padding: 30px 30px 30px 30px;
     border: none;
     font-size: 20px;
     font-weight: bold;
 }
+/* responsivness */
+@media only screen and (max-width:1200px){
+    #button{
+        padding:10px 20px 10px 20px;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:768px){
+
+    #button{
+        padding:1px 1px 1px 1px;
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width:768px){
+      .navlinks  {
+   gap: 10px;
+}
+}
+
+@media only screen and (max-width:768px){
+    #logo {
+        font-size: 26px;
+        font-weight: bold;
+    }
+}
+
+
 
 /* about the agriplus */
 
@@ -51,21 +80,20 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 121vh;
+    height: 100vh;
     display: flex;
 }
 
 .about-img img {
     width: 100%;
     float: right;
-    padding-top: 250px;
+    /* padding-top: 250px; */
     padding-right: 60px;
 
 }
-
 .about-text {
     width: 100%;
-    padding-top: 250px;
+    /* padding-top: 250px; */
     padding-left: 100px;
 
 }
@@ -88,20 +116,129 @@ body {
     font-weight: bolder;
 }
 
+/* RESPONSIVNESS */
+@media only screen and (max-width:1597px){
+    .about-text h1 {
+        font-size: 55px;
+        padding-left: 20px;
+        
+    }   
+}
+@media only screen and (max-width:1530px){
+    .about-text h1 {
+        font-size: 40px;
+        padding-left: 20px;
+        
+    }   
+}
+@media only screen and (max-width:1597px){
+    .about-text p {
+        font-size: 20px;
+        padding-left: 20px;
+        
+    }   
+}
+@media only screen and (max-width:1240){
+    .about-text h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:1100px){
+    .about-text h1 {
+        font-size: 25px;
+        padding-left: 10px;
+        
+    }   
+}
+@media only screen and (max-width:1100px){
+    .about-text p {
+        font-size: 15px;
+        padding-left: 20px;
+        
+    }   
+}
+@media only screen and (max-width:1100px){
+    .about-img img {
+       width :480px;
+        
+    }   
+}
+@media only screen and (max-width:1100px){
+    .about-agriplus {
+      
+        height: 60vh;
+    }   
+}
+@media only screen and (max-width:768px){
+    .about-agriplus {
+      
+        height: 30vh;
+    }   
+}
+
+@media only screen and (max-width:768px){
+    .about-img img {
+       width :300px;
+        
+    }   
+}
+@media only screen and (max-width:768px){
+    .about-text p {
+        font-size: 10px;
+        line-height: 15px;
+
+        
+    }   
+}
+@media only screen and (max-width:768px){
+    .about-text h1{
+        font-size: 20px;
+        padding-left: 2px;
+        
+    }   
+}
+@media only screen and (max-width:1100px){
+    #btn{
+        padding: 17px 15px 17px 15px;
+        font-size: 15px;
+    }   
+}
+
 /* about vendors */
 .vendors ul {
     display: flex;
     font-size: 25px;
     font-weight: bold;
-    align-items: center;
+    text-align: center;
     justify-content: space-around;
     background-color: white;
     box-shadow: 3px 3px 2px grey;
     padding: 40px 20px 40px 20px;
     height: 50px;
+    position: absolute;
+    top : 110%;
+    align-items: center;
+    left: 30%;
 }
-
-
+/* responsivness */
+@media only screen and (max-width:1100px){
+    .vendors ul{
+        position: absolute;
+        top: 70%;
+        left: 15%;
+    }   
+}
+@media only screen and (max-width:768px){
+    .vendors ul{
+        position: absolute;
+        top: 40%;
+        left: 38%;
+        font-size: 11px;
+        justify-content: space-around;
+        height: 25px;
+    }   
+}
 
 /* About why we exist */
 .exists {
@@ -110,11 +247,12 @@ body {
     width: 95%;
     margin: auto;
     margin-bottom: 50px;
+    margin-top: 40px;
 }
 
-.its-image {
-    width: 100%;
-}
+    .its-image {
+        width: 100%;
+    } 
 
 .its-image img {
     width: 90%;
@@ -132,6 +270,32 @@ body {
     font-size: 30px;
 }
 
+/* responsiveness */
+@media only screen and (max-width:1407px){
+    .about-exists P {
+        font-size: 23px;
+        
+    }   
+}
+@media only screen and (max-width:1100px){
+    .about-exists P {
+        font-size: 19px;
+        
+    }   
+}
+@media only screen and (max-width:768px){
+    .about-exists h2 {
+        font-size: 23px;
+        
+    }   
+}
+@media only screen and (max-width:768px){
+    .about-exists P {
+        font-size: 13px;
+        
+    }   
+}
+
 /* about category */
 .category {
     text-align: center;
@@ -144,6 +308,30 @@ body {
 .category p {
     font-size: 35px;
 }
+
+/* responsiveness */
+@media only screen and (max-width:1407px){
+    .category P{
+        font-size: 25px;
+        
+    }   
+}
+
+@media only screen and (max-width:768px){
+    .category h2{
+        font-size: 23px;
+        
+    }   
+}
+
+@media only screen and (max-width:1407px){
+    .category P{
+        font-size: 15px;
+        
+    }   
+}
+
+
 
 /* about most popular */
 span{
@@ -159,7 +347,11 @@ span{
     text-underline-offset: 21px;
   }
 
-
+   #arrow{
+    font-size: 70px;
+    color: #ED661F;
+    text-decoration: none;
+   }
 
 .about-images {
     display: flex;
@@ -186,6 +378,51 @@ hr {
     height: 40px;
     background: #ccc;
     margin: 20px;
+}
+  /* responsiveness */
+@media only screen and (max-width:1407px){
+    .image img {
+        width: 300px;
+        
+    }   
+}
+@media only screen and (max-width:1100px){
+    .image img {
+        width: 250px;
+        
+    }   
+}
+@media only screen and (max-width:768px){
+    .image img {
+        width: 160px;
+        
+    }   
+}
+@media only screen and (max-width:768px){
+    .popular h2 {
+    font-size: 25px;
+    margin-left: 20px;
+        
+    }   
+}
+@media only screen and (max-width:768px){
+    .new-item h2 {
+    font-size: 25px;
+    margin-left: 20px;
+        
+    }   
+}
+@media only screen and (max-width:768px){
+    .image h3{
+    font-size: 13px;
+        
+    }   
+}
+@media only screen and (max-width:768px){
+    .image p {
+    
+        font-size: 10px;
+    }   
 }
 
 .more {
@@ -241,7 +478,62 @@ hr {
     color: #ED661F;
 }
 
+/* responsivness */
+@media only screen and (max-width:1240px){
+    .customers{
+        width: 310px;
+        
+    }   
+}
+@media only screen and (max-width:1240px){
+    .pics p{
+    font-size: 15px;
+        
+    }   
+}
+@media only screen and (max-width:1240px){
+    .customers p{
+        font-size: 28px;
+        
+    }   
+}
+@media only screen and (max-width:768px){
+    .customers{
+        width: 200px;
+        
+    }   
+}
+@media only screen and (max-width:768px){
+    .pics p{
+    font-size: 12px;
+        
+    }   
+}
+@media only screen and (max-width:768px){
+    .customers p{
+        font-size: 18px;
+        
+    }   
+}
+@media only screen and (max-width:768px){
+    .about-customers h1{
+        font-size: 25px;
+        
+    }   
+}
 
+@media only screen and (max-width:768px){
+    .pics img{
+    width: 55px;
+        
+    }   
+}
+@media only screen and (max-width:768px){
+    .stars{
+    font-size: 23px;
+        
+    }   
+}
 
 /* About emails */
 
@@ -266,13 +558,40 @@ input {
     font-size: 20px;
     font-weight: bold;
 }
-
+/* responsivness */
+@media only screen and (max-width:1100px){
+    .about-email h1 {
+        font-size: 40px;
+        
+    }   
+}
+@media only screen and (max-width:1100px){
+    input {
+        padding: 10px 25px 18px 10px;
+        font-size: 16px;
+        
+    }   
+}
+@media only screen and (max-width:768px){
+    .about-email h1 {
+        font-size: 25px;
+        
+    }   
+}
+@media only screen and (max-width:1100px){
+    input {
+        padding: 5px 20px 5px 20px;
+        font-size: 16px;
+        
+    }   
+}
 
 /* about footer */
 
 .about-us {
     display: flex;
-    gap: 200px;
+    /* gap: 200px; */
+    justify-content: space-around;
     background-color: black;
     color: white;
     margin-top: 20px;
@@ -315,4 +634,69 @@ ul {
 
 .license {
     text-align: center;
+}
+
+/* responsiveness */
+@media only screen and (max-width:1100px){
+    ul {
+        font-size: 16px;
+        
+    }   
+}
+@media only screen and (max-width:1100px){
+    .company {
+        font-size: 16px;
+        
+    }   
+}
+@media only screen and (max-width:1100px){
+    .images img {
+        width:190px ;
+        
+    }   
+}
+@media only screen and (max-width:1100px){
+    .products {
+        font-size: 16px;
+        
+    }   
+}
+@media only screen and (max-width:1100px){
+    .others {
+        font-size: 16px;
+        line-height: 39px;
+        
+    }   
+}
+@media only screen and (max-width:768px){
+    .images img {
+        width:90px ;
+        
+    }   
+}
+
+@media only screen and (max-width:768px){
+    ul {
+        font-size: 14px;
+        
+    }   
+}
+
+@media only screen and (max-width:768px){
+    .company {
+        font-size: 12px;
+        
+    }   
+}
+@media only screen and (max-width:768px){
+    .products{
+        font-size: 12px;
+        
+    }   
+}
+@media only screen and (max-width:1100px){
+    .others {
+        font-size: 12px;
+        
+    }   
 }
