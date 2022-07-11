@@ -3,6 +3,7 @@ Auther
 By Ahmed Ali 
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 screenshots of the website
 
 
@@ -20,6 +21,11 @@ Table of Content
 
 
 
+=======
+
+
+
+>>>>>>> 6463932011c4f2eab5d3559195a43c9a47e14b49
 
 Table of Content
 ---
@@ -37,11 +43,15 @@ Description
 This project is a landing page of an Agricultural website that is used by farmers to sell their product .The farmers or producers poat there produce where by its like an online e-commerce and its agreat platform for farmers, producers and harvesters.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 Features
 =======
 features
 >>>>>>> adss readme file
+=======
+features
+>>>>>>> 6463932011c4f2eab5d3559195a43c9a47e14b49
 ---
 As a user of the web app,you will be able to :
  1.View the services and the produce offered by the platform
@@ -53,10 +63,14 @@ Access to a computer, 1.smartphone or other devices
 2.Access to internet.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Installation process
 =======
 installation process
 >>>>>>> adss readme file
+=======
+installation process
+>>>>>>> 6463932011c4f2eab5d3559195a43c9a47e14b49
 ---
 Clone to this repo : git clone https://github.com/ahmedalli20/Agriplus-wk2.git
 Unzip the downloaded files in a folder of choice.
@@ -69,9 +83,12 @@ clik on this link https://ahmedalli20.github.io/Agriplus-wk2/
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> adss readme file
+=======
+>>>>>>> 6463932011c4f2eab5d3559195a43c9a47e14b49
 Technology Used 
 ---
 HTML - which was used to develop the structure of the pages.
