@@ -72,11 +72,10 @@ body {
 }
 
 
-
 /* about the agriplus */
 
 .about-agriplus {
-    background: url("/images/image 1.png");
+    background: url("./images/image 1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
